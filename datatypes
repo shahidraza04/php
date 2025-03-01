@@ -50,11 +50,11 @@ $vararr=array(1,2,3,5,6);
 echo "$vararr=",$vararr;
 var_dump($vararr);
 
-// foreach($var as $vararr){
-//     echo "$var:";
-//     var_dump($var);
-//     echo"<br>";
-// }
+foreach($vararr as $var){
+    echo"<br>$var:";
+    var_dump($var);
+    echo"<br>";
+}
 
 //object 
 class Emp {
